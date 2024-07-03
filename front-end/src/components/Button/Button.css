@@ -1,0 +1,43 @@
+.Button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.Button:hover {
+  border-color: #646cff;
+}
+.Button:focus,
+.Button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.Button-red {
+  background-color: var(--red-light);
+  color: #000;
+}
+
+.Button-blue {
+  background-color: var(--blue-light);
+  color: #000;
+}
+
+.Button-yellow {
+  background-color: var(--yellow-light);
+  color: #000;
+}
+
+.Button-green {
+  background-color: var(--green-light);
+  color: #000;
+}
+
+.Button-purple {
+  background-color: var(--purple-light);
+  color: #000;
+}

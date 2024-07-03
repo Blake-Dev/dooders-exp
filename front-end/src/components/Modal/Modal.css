@@ -1,0 +1,61 @@
+.Modal  {
+  color: black;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  border-radius: 10px;
+}
+
+.Modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.Modal-content h3, .Modal-content p {
+  align-self: flex-start;
+}
+
+.Modal-content h3 {
+  margin-bottom: 10px;
+}
+
+.Modal-content p {
+  margin-top: 0px;
+}
+
+.Modal-form {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.Modal-form input {
+  width: 60%;
+}
+
+.Modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px 10px 10px 0;
+}
+
+.Modal-footer button:last-child {
+  margin-left: 10px;
+}
+
+.Modal-label {
+  display: block;
+}

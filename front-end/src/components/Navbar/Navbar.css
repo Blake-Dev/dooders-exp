@@ -1,0 +1,12 @@
+.Navbar {
+  height: 60px;
+  width: 100%;
+  background-color: var(--blue-light);
+  color: #000;
+  position: sticky;
+}
+
+.Navbar-header h1 {
+  margin: 0;
+  font-size: 40px;
+}

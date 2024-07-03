@@ -1,0 +1,90 @@
+.Card {
+  color: #000;
+  background-color: #fff;
+  width: 370px;
+  height: 225px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.Card-top {
+  display: flex;
+  background-color: #b2f2bb;
+  height: 70%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.Card-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.Card-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.Card-left-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.Card-left img {
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.Card-left span {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.Card-left-img-container {
+  margin-left: 30px;
+}
+
+.Card-right-stat {
+  margin-right: 40px;
+}
+
+.Card-right-stat span {
+  font-weight: bold;
+}
+
+.Card-right-stat p {
+  padding: 0;
+  margin: 0;
+}
+
+.Card-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  background-color: #fff;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.Card-empty {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
